@@ -1,0 +1,73 @@
+# ===================================
+# ROS2 / colcon build outputs
+# ===================================
+build/
+install/
+log/
+
+# ===================================
+# Compiled object files / binaries
+# ===================================
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# ===================================
+# CMake generated files
+# ===================================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# ===================================
+# Debug / profiling files
+# ===================================
+*.pdb
+*.ilk
+*.exp
+*.log
+*.dSYM/
+
+# ===================================
+# Python cache (rclpy nodes, scripts)
+# ===================================
+__pycache__/
+*.pyc
+*.egg-info/
+
+# ===================================
+# IDE / editor files
+# ===================================
+.vscode/
+.vs/
+.idea/
+*.iml
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+cmake-build-*/
+
+# ===================================
+# OS-specific files
+# ===================================
+.DS_Store
+Thumbs.db
+
+# ===================================
+# Miscellaneous temp files
+# ===================================
+*.swp
+*~

@@ -1,0 +1,9 @@
+<library path="voxel3d_panel">
+    <class name="Voxel3dRvizPanel"
+           type="voxel3d_node::Voxel3dRvizPanel"
+           base_class_type="rviz_common::Panel">
+        <description>
+            A rviz2 panel to display data from multiple 5Voxel devices.
+        </description>
+    </class>
+</library>

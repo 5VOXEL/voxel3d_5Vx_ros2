@@ -1,0 +1,6 @@
+voxel3d_node:
+  ros__parameters:
+    voxel3d:
+      fusion_mode: 1 # 0: NONE, 1: RGB2TOF, 2: FLIR2TOF, 3: TOF2RGB
+      thermal_min_temp: 20.0
+      thermal_max_temp: 50.0
